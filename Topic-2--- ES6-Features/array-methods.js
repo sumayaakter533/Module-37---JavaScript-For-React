@@ -39,6 +39,9 @@ console.log(pp); // output => undefined. as forEach doesn't return anything.
 const cheapProducts = products.filter((product) => product.price <= 100);
 console.log(cheapProducts);
 
+const remainingProducts = products.filter((p) => p.name !== "phone");
+console.log("Products without phone: ", remainingProducts);
+
 // NOTE - when condition is applied in map method it returns true false
 // const cheapProducts = products.map((product) => product.price <= 100);
 // OUTPUt -
