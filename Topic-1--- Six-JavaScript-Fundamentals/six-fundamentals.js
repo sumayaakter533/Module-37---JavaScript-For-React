@@ -72,3 +72,21 @@ const way2 = student["age"]; // Access via property name string
 const myVariable = student.subjects;
 const way3 = myVariable; // Access via property in a variable
 console.log(way1, way2, way3);
+
+// TODO - dot notation
+const person = {
+    name: "sumaya akter",
+    age: 23,
+    profession: "student",
+    address: "Dhaka",
+};
+const myAge = person.age;
+console.log(myAge);
+
+// TODO - bracket notation
+const myProfession = person["profession"];
+console.log(myProfession);
+
+const pName = "name";
+const myName = person[pName];
+console.log(myName);
